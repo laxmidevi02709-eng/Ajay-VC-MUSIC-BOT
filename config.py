@@ -14,7 +14,7 @@ SPOTIFY_CLIENT_ID = os.getenv("SPOTIFY_CLIENT_ID", "")
 SPOTIFY_CLIENT_SECRET = os.getenv("SPOTIFY_CLIENT_SECRET", "")
 
 # Branding — AJAY VC MUSIC BOT
-BOT_USERNAME = os.getenv("BOT_USERNAME", "AgajayVcMusicBot)
+BOT_USERNAME = os.getenv("BOT_USERNAME", "AgajayVcMusicBot")
 OWNER_USERNAME = os.getenv("OWNER_USERNAME", "agajayofficial")
 MAIN_CHANNEL = os.getenv("MAIN_CHANNEL", "https://t.me/AjayFFCommunity")
 SECOND_CHANNEL = os.getenv("SECOND_CHANNEL", "https://t.me/agajayofficialgiveway")
