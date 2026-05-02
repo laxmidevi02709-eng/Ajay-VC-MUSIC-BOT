@@ -38,7 +38,8 @@ async def main():
 
 
 if __name__ == "__main__":
+    loop = asyncio.get_event_loop()
     try:
-        asyncio.run(main())
+        loop.run_until_complete(main())
     except KeyboardInterrupt:
         pass
