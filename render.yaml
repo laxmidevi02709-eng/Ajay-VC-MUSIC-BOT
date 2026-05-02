@@ -1,0 +1,32 @@
+services:
+  - type: web
+    name: ajay-vc-music-bot
+    env: docker
+    plan: free
+    dockerfilePath: ./Dockerfile
+    autoDeploy: true
+    envVars:
+      - key: API_ID
+        sync: false
+      - key: API_HASH
+        sync: false
+      - key: BOT_TOKEN
+        sync: false
+      - key: BOT_USERNAME
+        value: AjayVcMusicBot
+      - key: SESSION_STRING
+        sync: false
+      - key: OWNER_ID
+        sync: false
+      - key: SPOTIFY_CLIENT_ID
+        sync: false
+      - key: SPOTIFY_CLIENT_SECRET
+        sync: false
+      - key: OWNER_USERNAME
+        value: agajayofficial
+      - key: MAIN_CHANNEL
+        value: https://t.me/AjayFFCommunity
+      - key: SECOND_CHANNEL
+        value: https://t.me/agajayofficialgiveway
+      - key: PRIVATE_CHANNEL
+        value: https://t.me/+K_QvCsPtHPNkNTdl
